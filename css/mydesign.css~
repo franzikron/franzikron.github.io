@@ -1,0 +1,9 @@
+body {
+background-color:aqua;
+    background-image:url(IMG_4064b.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.inhalt {
+    margin-top: 80px;
+}

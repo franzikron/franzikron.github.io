@@ -1,0 +1,112 @@
+body {
+    background-color: wheat;
+}
+
+.inhalt {
+    margin-top: 200px;
+}
+
+.unterseiten {
+    margin-top: 100px;
+    margin-left: 5px;
+}
+
+#nummer1 {
+    position: absolute;
+    top: 300px;
+    left: px;
+}
+
+#nummer2 {
+    position: absolute;
+    top: 300px;
+    left: 330px;
+}
+
+#nummer3 {
+    position: absolute;
+    top: 300px;
+    left: 630px;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: top;
+}
+
+.img150 {
+    float: left;
+    width: 33%;
+    padding: 3px;
+}
+
+.clearing {
+    clear: both;
+}
+
+.b1 {
+    width: 100%;
+}
+
+h3 {
+    display: inline;
+    color: black;
+
+}
+
+
+#start {
+    text-align: center;
+}
+
+.navbar-nav > li {
+    float: left;
+    position: relative;
+    right: 50%;
+    color: black;
+}
+
+.navbar-nav {
+    float: left;
+    position: relative;
+    left: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar-nav a {
+    width: auto;
+    display: block;
+    padding: 0 10px;
+    line-height: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.k1 {
+    float: left;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#minigalerie {
+    display: table;
+    border-spacing: 10px;
+}
+
+#minigalerie a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#minigalerie img {
+    transition: transform 0.2s;
+    }
+
+#minigalerie img:target {
+    width: 180px;
+    height: 300px;
+}

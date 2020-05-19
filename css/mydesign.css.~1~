@@ -1,0 +1,54 @@
+body {
+    background-color: wheat;
+}
+
+.inhalt {
+    margin-top: 200px;
+}
+
+.unterseiten {
+    margin-top: 100px;
+    margin-left: 5px;
+}
+
+#nummer1 {
+    position: absolute;
+    top: 300px;
+    left: px;
+}
+
+#nummer2 {
+    position: absolute;
+    top: 300px;
+    left: 330px;
+}
+
+#nummer3 {
+    position: absolute;
+    top: 300px;
+    left: 630px;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: top;
+}
+
+.img150 {
+    float: left;
+    width: 33%;
+    padding: 3px;
+}
+
+.clearing {
+    clear: both;
+}
+
+.b1 {
+    width: 100%;
+}
+
+h3 {
+    display: inline;
+
+}
