@@ -9,8 +9,7 @@ body {
 }
 
 .inhalt {
-    clear: both;
-    float: left: margin-top: 250px;
+    float: left: margin-top: 150px;
     width: 100%;
     margin-left: 4%;
 }
@@ -166,7 +165,7 @@ nav a:hover {
 }
 
 .einblenden {
-        visibility: hidden;
+    visibility: hidden;
     height: 70%;
     width: 80%;
     margin-top: -20px;
@@ -181,7 +180,6 @@ nav a:hover {
 }
 
 .gallery:hover .einblenden {
-    clear: both;
     visibility: visible;
 }
 
@@ -189,7 +187,7 @@ nav a:hover {
     visibility: hidden;
 }
 
-.image-wrapper {
+.amensic-image-wrapper {
     max-width: 31%;
     height: auto;
     position: relative;
@@ -197,7 +195,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.image-wrapper img {
+.amensic-image-wrapper img {
     float: left;
     width: 100% !important;
     height: auto !important;

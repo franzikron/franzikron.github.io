@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--  Dokumentkompatibilitätsmodus für IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Franziska Kronmüller</title>
+
+    <!-- Bootstrap Haupt-CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Bootstrap Theme-CSS -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- Eigenes CSS -->
+    <link href="css/mydesign.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <style type="text/css">
+        header {
+            width: 100%;
+            float: left;
+        }
+
+        nav {
+            width: 100%;
+            float: left;
+            background: white;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            float: left;
+            width: 100%;
+        }
+
+        nav a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            padding: 1em;
+            text-decoration: none;
+            color: black;
+            background: white;
+        }
+
+        nav a:hover {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        @media screen and (min-width:650px) {
+
+
+            nav {
+                float: left;
+                position: relative;
+                width: auto;
+                left: 50%;
+                background: white;
+            }
+
+            nav a {
+                border: none;
+            }
+
+            nav ul {
+                list-style: none;
+            }
+
+            nav li {
+                float: left;
+                position: relative;
+                width: auto;
+                right: 50%;
+            }
+
+        }
+
+    </style>
+    <div class="flex">
+        <a id="start" href="index.html">
+            <br>
+            <img class="langs de" src=franziska1.jpg>
+        </a>
+        <br>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li class="active"><a href="myhome2.html"> <img src=zeichnung.png></a></li>
+                <li><a href="keramik.html"> <img src=keramik.png></a></li>
+                <li><a href="malerei.html"> <img src=malerei.png></a></li>
+                <li><a href="kontakt.html"> <img src=about.png></a></li>
+                <li><a href="shop.html"><img src=shop.png></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <nav class="navbar navbar-collapse">
+        <div class="container">
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav nav--mobile">
+                    <li class="active"><a href="myhome2.html"> <img src=zeichnung.png></a></li>
+                    <li><a href="keramik.html"> <img src=keramik.png></a></li>
+                    <li><a href="malerei.html"> <img src=malerei.png></a></li>
+                    <li><a href="kontakt.html"><img src=about.png></a></li>
+                    <li><a href="shop.html"><img src=shop.png></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="inhalt">
+
+        <div class="amensic-image-wrapper">
+            <a href="myhome2.html">
+                <img src="Zeichnung1_s.png" />
+            </a>
+        </div>
+        <div class="amensic-image-wrapper">
+            <a href="keramik.html">
+                <img src="vase1.jpg" />
+            </a>
+        </div>
+        <div class="amensic-image-wrapper">
+            <a href="myhome2.html">
+                <img src="Zeichnung2.jpg" />
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap Haupt-JavaScript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
